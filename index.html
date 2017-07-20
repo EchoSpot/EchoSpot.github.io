@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
+	<!-- <link rel="stylesheet" type="text/css" href="css/min.css" media="screen and (width(800px))"> -->
+	<script type="text/javascript">
+		window.onload=function(){
+			var oSection10=document.getElementById('section10');
+			var oI=oSection10.getElementsByTagName('i')[0];		
+			oI.onclick=function(){
+				if(this.className=="fa fa-heart"){
+					this.className="fa fa-heart-o";
+				}else{
+					this.className="fa fa-heart";
+				}
+			}
+
+		}
+	</script>
+</head>
+
+<body>
+    
+	<div id="box">
+		<figure class="section1">
+			<img src="imgs/10.jpg" alt="图片1">
+			<figcaption>
+			    <h2>图片标题</h2>
+                <p>图片注释</p>
+                <p>图片资源</p>
+                <p>图片资源</p>                
+			</figcaption>
+			
+		</figure>
+		<figure class="section2">
+			<img src="imgs/12.jpg" alt="图片1">
+			<figcaption>
+			   <div></div>
+			   <h2>图片注释</h2>
+			   <p>猫是一种可爱的动物，猫属于家养动物</p>
+			</figcaption>
+		</figure>
+		<figure class="section3">
+		    <img src="imgs/05.jpg">
+			<figcaption>
+				<h2>图片注释</h2>
+				<p>图片标题</p>
+				<p>真爱永恒，不离不弃</p>
+			</figcaption>
+		</figure>	
+		<figure class="section4">
+			<img src="imgs/13.jpg">
+			<figcaption>
+				<div></div>
+				<h2>图片标题</h2>
+				<p>自由飞翔，放飞梦想<p>
+			</figcaption>
+		</figure>
+		<figure class="section5">
+			<img src="imgs/14.jpg">
+			<figcaption>
+				<div></div>
+				<h2>图片标题</h2>
+				<p>自由飞翔，放飞梦想<p>
+			</figcaption>
+		</figure>
+
+
+		<figure class="section6">
+			<img src="imgs/08.jpg">
+			<figcaption>
+				<div></div>
+				<span>btn1</span>
+				<i>btn2</i>
+				<p>自由飞翔，放飞梦想<p>
+			</figcaption>
+		</figure>
+
+		<figure class="section7">
+			<img src="imgs/09.jpg">
+			<figcaption>
+				<div class="lrLine"></div>
+				<div class="tbLine"></div>
+				<h2>图片标题</h2>
+				<p>自由飞翔，放飞梦想<p>
+			</figcaption>
+		</figure>
+		<figure class="section8">
+			<img src="imgs/01.jpg">
+			<figcaption>
+				<div class="lr"></div>
+				<div class="tb"></div>
+				<h2>图片标题</h2>
+				<p>法力无边，螺旋上天</p>
+			</figcaption>
+		</figure>
+		<figure class="section9">
+			<img src="imgs/03.jpg">
+			<figcaption>
+				<div></div>
+				<h2>Go to Moon</h2>
+				<p>  &nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima nisi repellat, saepe numquam amet repellendus, corrupti voluptatibus. Voluptatum beatae alias numquam reiciendis quia</p>
+			</figcaption>
+		</figure>
+		<figure class="section10" id="section10">
+			<img src="imgs/04.jpg">
+			<figcaption>
+			    <i class="fa fa-heart-o " aria-hidden="true"></i>
+				<p>优惠券 ￥200</p>        
+                <a href="javascript:;">点击进入</a>
+			</figcaption>
+		</figure>	
+
+
+	</div>
+
+</body>
+</html>
